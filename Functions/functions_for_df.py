@@ -18,6 +18,8 @@ from sklearn.linear_model import LogisticRegression
 import warnings
 warnings.simplefilter(action="ignore")
 
+pd.set_option('display.max_columns', None)
+pd.set_option('display.width', 500)
 
 ##################################
 # Info of DataFrame
