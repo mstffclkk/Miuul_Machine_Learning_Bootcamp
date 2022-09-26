@@ -144,7 +144,7 @@ long_str
 # String (Karakter Dizisi) Metodları
 ###############################################
 
-dir(str)
+dir(str) # String metodlarını gösterir.
 
 #######################
 # len
@@ -152,11 +152,14 @@ dir(str)
 
 name = "john"
 type(name)
-type(len)
+type(len) # <class 'builtin_function_or_method'>
 
 len(name)
 len("vahitkeskin")
 len("miuul")
+
+# Not: Eğer bir fonksiyon class yapısı içinde tanımlandıysa buna metot denir,
+# eğer bir fonksiyon class dışında tanımlandıysa buna fonksiyon denir.
 
 #######################
 # upper() & lower(): küçük-büyük dönüşümleri
@@ -215,7 +218,7 @@ not_nam = [1, 2, 3, "a", "b", True, [1, 2, 3]]
 
 not_nam[0]
 not_nam[5]
-not_nam[6] #listenin içindeki listeye erişmek
+not_nam[6]    #listenin içindeki listeye erişmek
 not_nam[6][1] #lisenin içindeki listenin elemanına erişmek
 
 type(not_nam[6])
